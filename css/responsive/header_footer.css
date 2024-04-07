@@ -1,0 +1,110 @@
+@media screen and (max-width: 800px) {
+    .toggle2 {
+        display: flex;
+    }
+
+    header .container .menu a{
+        display: block;
+        padding: 20px 30px;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    header .container .menu{
+        display: block;
+        position: absolute;
+        top: 65px;
+        right: 65px;
+        opacity: 0;
+        transform: translateY(-300%);
+        animation: ani_back 0.3s forwards;
+    }
+
+    input.toggleMenu:checked ~ .menu{
+        display: block;
+        animation: ani 0.6s forwards;
+    }
+
+    @keyframes ani{
+        0% {transform: translateY(-10%); opacity: 0;}
+        100% {transform: translateY(0); opacity: 1;}
+    }
+    
+    @keyframes ani_back{
+        0% {transform: translateY(0); opacity: 1;}
+        99% {transform: translateY(-10%); opacity: 0;}
+        100% {transform: translateY(-200%);}
+    }
+}
+
+@media screen and (max-width: 800px) {
+    footer .container .main{
+        display: grid;
+        grid-gap: 56px 24px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 1fr;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer .main .left_footer figure{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .main .left_footer{
+        width: 100%;
+    }
+
+    footer .main .left_footer figure figcaption{
+        padding: 20px 0 0 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    footer .copyright_social{
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    footer .social{
+        padding-bottom: 12px;
+    }
+}
+
+@media screen and (max-width: 555px) {
+    footer .container .main{
+        grid-gap: 26px 24px;
+        grid-template-columns: 1fr;
+    }
+
+    footer .main .columns div{
+        padding-bottom: 10px;
+        font-size: 1em;
+    }
+
+    footer .main .columns a{
+        padding: 4px 0;
+        font-size: 0.85em;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    header{
+        background: linear-gradient(180deg, rgba(0,4,15,0.7) 0%, rgba(0,4,15,0.5) 50%, rgba(0,4,15,0) 100%);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    footer .main .left_footer figure .logo_footer{
+        height: 40px;
+    }
+    
+    header > .container{
+        padding: 15px;
+    }
+}

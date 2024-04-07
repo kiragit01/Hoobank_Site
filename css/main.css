@@ -1,0 +1,263 @@
+.height{
+    height: 80vh;
+}
+.content{
+    align-items: center;
+    display: flex;
+}
+
+.main-img-right {
+    transition-duration: .7s;
+    position: absolute;
+    height: 150vh;
+    top: 0px;
+    right: 0;
+    z-index: -1;
+}
+
+.MainText{
+    font-size: 4.5em;
+    font-weight: 600;
+    transition-duration: .7s;
+}
+
+.gradient{
+    background: radial-gradient(circle, rgba(222,249,250,1) 0%, rgba(190,243,245,1) 8%, rgba(157,237,240,1) 24%, rgba(125,231,235,1) 40%, rgba(92,225,230,1) 59%, rgba(51,187,207,1) 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.blur{
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+    width: 100%;
+}
+
+.blur_x{
+    top: -10%;
+    width: 50%;
+}
+
+
+/*Статистика*/
+
+
+.main-stat{
+    padding: 50px 0;
+}
+
+.stat{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    text-transform:uppercase;
+    padding: 0 40px;
+}
+
+.stat-num{
+    padding-right: 10px;
+    font-size: 2.75em;
+}
+
+.stat_txt{
+    font-size: 1.25em;
+}
+
+hr{
+    height: 16px;
+}
+
+
+/*Лист*/
+
+
+.list{
+    width: 470px;
+    height: 400px;
+}
+
+.list .item{
+    padding: 20px 10px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.list .item .txt{
+    font-size: 1em;
+    width: 366px;
+}
+
+.list .item .txt .header_txt{
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.list .item .txt .description{
+    opacity: 0.6;
+}
+
+.list .item_active{
+    background: rgb(255,255,255);
+    background: linear-gradient(170deg, rgba(255,255,255,0.2) -65%, rgba(0,0,0,0.7) 140%);
+    border-radius: 20px;
+}
+
+
+/*Блоки*/
+
+
+.part{
+    padding: 60px 0;
+}
+
+.p1 .left{
+    padding-bottom: 40px;
+}
+
+.main_txt {
+    width: 90%;
+    margin-bottom: 40px;
+}
+
+.main_txt .header_txt{
+    font-size: 2.75em;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.main_txt .description{
+    opacity: 0.6;
+    line-height: 170%;
+}
+
+.but{
+    padding: 20px 50px;
+    border-radius: 15px;
+    border: 0px;
+    font-size: 1.2em;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    background: linear-gradient(170deg, rgba(222,249,250,1) 0%, rgba(190,243,245,1) 8%, rgba(157,237,240,1) 24%, rgba(125,231,235,1) 40%, rgba(92,225,230,1) 59%, rgba(51,187,207,1) 100%);
+}
+
+.but:hover{
+    transform: scale(1.1);
+}
+
+.but a{
+    color: black;
+}
+
+.p2 .right{
+    margin-left: 50px;
+}
+
+.balance_img,
+.best_img{
+    width: 100%;
+}
+
+.download{
+    width: 150px;
+}
+
+.apple{
+    margin-right: 20px;
+}
+
+.p4{
+    padding-bottom: 0;
+}
+
+.p4 .main_txt{
+    width: 45%;
+}
+
+.edge1{
+    margin-left: 25px;
+}
+
+.edge2{
+    margin-right: 25px;
+}
+
+/*Comments*/
+
+.p5{
+    padding-top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.p5 .comment{
+    width: 30%;
+    height: 370px;
+    padding: 0 30px;
+    border-radius: 20px;
+    transition: all 0.4s ease;
+}
+
+.p5 .comment .brackets{
+    width: 42px;
+    margin: 40px 0;
+}
+
+.p5 .comment .txt{
+    font-size: 1.125em;
+    line-height: 180%;
+    height: 180px;
+}
+
+.p5 .comment .author{
+    display: flex;
+    margin: 10px 0;
+}
+
+.p5 .comment .author .avatar{
+    width: 48px;
+    margin-right: 15px;
+}
+
+.p5 .comment .author .initials .name{
+    font-size: 1.25em;
+    margin-bottom: 5px;
+}
+
+.p5 .comment .author .initials .post{
+    font-size: 1em;
+    opacity: 0.5;
+}
+
+.p5 .comment:hover{
+    background: linear-gradient(150deg, rgba(255,255,255,0.2) -65%, rgba(0,0,0,0.7) 140%);
+    transform: scale(1.1);
+}
+
+/*p6*/
+
+.p6{
+    margin-top: 100px;
+    background: linear-gradient(200deg, rgba(255,255,255,0.2) -65%, rgba(0,0,0,0.7) 140%);
+    border-radius: 20px;
+}
+
+.p6 .end{
+    padding: 80px;
+}
+
+.p6 .end .end-main-txt{
+    font-size: 2.75em;
+    font-weight: 600;
+    margin-bottom: 30px;
+    width: 90%;
+}
+
+.p6 .end .end-description{
+    width: 60%;
+    opacity: 0.7;
+    line-height: 160%;
+}

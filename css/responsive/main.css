@@ -1,0 +1,271 @@
+@media screen and (max-width: 1240px) {
+    .main-stat .stat{
+        display: block;
+    }
+    
+    .part{
+        padding: 40px;
+    }
+
+    .main_txt .header_txt{
+        padding-bottom: 10px;
+        font-size: 2.5em;
+        line-height: 120%;
+    }
+    .but{
+        margin-top: 10px;
+    }
+    .MainText{
+        padding-left: 60px;
+    }
+
+    .p5 .comment,
+    .p5 .comment .txt{
+        height: auto;
+    }
+
+    .p6{
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 1080px) {
+    .main-img-right{
+        opacity: 0.5;
+    }
+    
+    .blur_fix{
+        top:30%;
+    }
+
+    .p1,
+    .p3 {
+        flex-direction: column-reverse;
+    }
+    .balance_img,
+    .best_img{
+        width: 50%;
+    }
+    
+    .p2 .left,
+    .p3 .right{
+        display: flex;
+        justify-content: center;
+    }
+
+    .p2{
+        display: block;
+    }
+
+    .part .left .main_txt{
+        margin: 40px auto 0 auto;
+    }
+
+    .main_txt {
+        width: 100%;
+    }
+
+    .collums{
+        display: grid;
+        grid-gap: 56px 24px;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+    
+    .edge1,
+    .edge2{
+        margin: 0;
+    }
+
+    .p5{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .p5 .comment{
+        width: 380px;
+        margin: 20px 40px;
+    }
+
+    .p5 .comment .author{
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .balance_img,
+    .best_img{
+        width: 410px;
+    }
+
+    .p6 .end{
+        display: block;
+        padding: 60px;
+    }
+
+    .p6 .but{
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .main-stat{
+        display: block;
+        text-align: center;
+        align-items: center;
+    }
+    .main-stat hr{
+        height: 1px;
+        width: 20%;
+        margin: 20px auto 20px auto;
+    }
+    .MainText{
+        font-size: 3.5em;
+    }
+
+    .p2 .right{
+        margin-left: 0;
+    }
+    .p4{
+        display: block;
+    }
+    .p4 .main_txt{
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .p6{
+        font-size: 0.9em;
+    }
+
+    .p6 .end .end-main-txt,
+    .p6 .end .end-description{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 555px) {
+    .main-img-right{
+        height: 130vh;
+    }
+
+    .list,
+    .list .item .txt{
+        height: auto;
+        width: 100%;
+    }
+
+    .list .icon{
+        padding-right: 10px;
+    }
+
+    .MainText{
+        font-size: 2.5em;
+        padding-left: 5px;
+        padding-right: 5px;
+        text-align: center;
+    }
+
+    .content{
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .list .item{
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .balance_img,
+    .best_img{
+        width: 100%;
+        margin: 0 15px;
+    }
+
+    .blur_fix{
+        top:150%;
+    }
+
+    .collums{
+        margin: 0;
+        grid-template-columns: 1fr;
+        grid-gap: 35px;
+    }
+
+    .p5{
+        font-size: 0.8em;
+    }
+    
+    .p5 .comment{
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .p5 .comment .author{
+        margin-top: 10px;
+    }
+
+    .p5 .comment .brackets{
+        margin: 10px 0;
+    }
+
+    .p6 .end{
+        padding: 30px;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    .main-img-right{
+        width: 200%;
+        height: 130%;
+        object-fit: cover;
+        top: -5%;
+        opacity: 1;
+    }
+
+    .content{
+        align-items:end;
+    }
+    
+    .apple{
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    *{
+        font-size: 0.95em;
+    }
+
+    .part{
+        padding: 30px 10px;
+    }
+
+    .but{
+        padding: 15px 35px;
+        border-radius: 10px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .down_but{
+        display: block;
+        text-align: center;
+    }
+
+    .download{
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    
+    .MainText,
+    .header_txt,
+    .p6 .end .end-main-txt{
+        font-size: 2em!important;
+    }
+}
